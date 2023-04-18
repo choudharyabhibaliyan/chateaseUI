@@ -1,0 +1,46 @@
+.cont{
+    display: flex;
+    flex-direction: column; 
+ }
+ .card{
+     width:95%;
+     background-color: rgb(192, 207, 207);
+     opacity: .8;
+     display: flex;
+     padding:1%;
+     justify-content: space-between;
+     align-items: center;
+     margin: 1%;
+     border-radius: 10px;
+ }
+ .round{
+     width:40px;
+     height: 40px;
+     border-radius: 50%;
+ }
+ .buttons{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ button{
+    width: fit-content;
+    margin-right: 10px;
+}
+.success{
+   font-weight: bolder;
+   font-size:larger;
+   background-color:rgb(38, 111, 207);
+   color:white;
+}
+.danger{
+   font-weight: bolder;
+   font-size:larger;
+   background-color: red;
+   color: white;
+}
+ .details{
+     color: black;
+     font-weight: bold;
+     font-weight: bold;
+ }

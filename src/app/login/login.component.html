@@ -1,0 +1,25 @@
+<div class="signup">
+  <div class="signupForm">
+      <form [formGroup]="validateCred" (ngSubmit)="onSubmit()" >
+          <div class="formLableDiv">
+              <label class="formlable">login</label>
+          </div>
+          <div class="formItem">
+              <label>username : </label> <input type="text" formControlName="username"  ngModel />
+          </div>
+          <div class="formItem">
+              <label>password : </label> <input type="password" formControlName="password"  ngModel />
+          </div>
+          <div class="formItem">
+          <button class="button">submit</button>
+          <button class="button" type="reset">reset</button>
+          </div>
+    </form>
+    <div class="formItem">
+      <label><a routerLink="/signup" routerLinkActive="active"
+          [routerLinkActiveOptions]="{exact:true}">signup</a></label>
+      <label><a routerLink="/forgetPassword" routerLinkActive="active"
+          [routerLinkActiveOptions]="{exact:true}">forget_pass</a></label>
+    </div>
+  </div>
+</div>

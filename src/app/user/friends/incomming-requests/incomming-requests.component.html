@@ -1,0 +1,20 @@
+<div class="cont">
+    <div *ngFor="let user of userlist" class="card">
+        <div class="details">
+            <label>{{user.username}} </label>
+        </div>
+        <div class="details">
+            <label>{{user.gender}} </label>
+        </div>
+        <div class="details">
+            <label>{{user.city}} </label>
+        </div>
+        <div class="details">
+            <label>{{user.state}} </label>
+        </div>
+        <div class="buttons">
+            <button class="success" (click) = "acceptIncomingRequest(user.id)"> accept </button>
+            <button class = "danger" (click) = "deleteIncomingRequest(user.id)"> decline </button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+<div class="posts">
+    <div *ngFor="let pos of postlist">
+        <div class="imagedata">
+            <img class="image" [src]="'data:image/jpeg;base64,' + pos.image" alt="">
+        </div>
+        <div class="data">
+            <label>{{pos.postText}}</label>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="post">
+    <div class="addPost">
+        <div class="image">
+            <img class="image" [src]="'data:image/jpeg;base64,' + post.image" alt="">
+        </div>
+        <div>
+            <input id="files" type="file" (change)="addPostImage($event)" ngModel>
+            <div class="textbox">
+                <input id="input" type="textarea" [(ngModel)]="postText" ngModel>
+            </div>
+            <button (click)="updateTestOnPost()">addPost</button>
+        </div>
+    </div>
+
+</div>

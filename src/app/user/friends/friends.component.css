@@ -1,0 +1,28 @@
+.container{
+    width:90%;
+    flex-direction: row;
+}
+.routesbar{
+    width:90%;
+    margin-bottom: 2%;
+}
+.route{
+    width: fit-content;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(38, 111, 207);
+    margin-right: 1%;
+    color:white;
+    text-decoration: none;
+}
+.content{
+    content: 90%;
+    height: 20vh;
+}
+.active-link{
+    background-color: beige;
+    color: black;
+    border: solid;
+}
+
+

@@ -1,0 +1,47 @@
+.imagedata{
+    width:30%;
+    margin: 1%;
+    height: 100%;
+}
+
+
+.post{
+    width:30%;
+    margin: 1%;
+    background-color:aliceblue;
+    opacity: .9;
+    height:100px;
+}
+.post{
+    margin-left: 1%;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-color: aquamarine;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: solid;
+}
+.textbox{
+    width: 100%;
+}
+#input{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.addImageButton{
+    display: flex;
+    align-items: center;
+}
+button{
+    display: block;
+    max-height: 43px;
+    margin-top: .8%;
+}
+.image{
+    width: 300px;
+    height: fit-content;
+    min-height: 20px;
+}

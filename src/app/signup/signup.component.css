@@ -1,0 +1,45 @@
+label{
+    font-size: larger;
+    font-weight: bold;
+}
+.formLableDiv{
+    display: flex;
+    justify-content: center;
+}
+.formlable{
+    font-size: x-large;
+    font-weight: bolder;
+}
+input{
+    padding: 2%;
+    border-radius: 10%;
+    font-weight: bold;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.signup{
+    display:flex;
+    justify-content: right;
+    padding-top: 2%;
+    padding-right: 5%;
+}
+.signupForm{
+    background-color:rgb(192, 207, 207);
+    padding: 2%;
+    padding-right: 4%;
+    border-radius: 2%;
+    opacity: .95;
+}
+.formItem{
+    margin: 3%;
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+button{
+    width:140px;
+    padding: 2%;
+    margin-top: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,47 @@
+<div class="signup">
+    <div class="signupForm">
+        <form [formGroup]="validateUser" (ngSubmit)="onSubmit()" >
+            <div class="formLableDiv">
+                <label class="formlable">Signup</label>
+            </div>
+            <div class="formItem">
+                <label>username : </label> <input type="text" name="username" formControlName="username" ngModel />
+            </div>
+            <div class="formItem">
+                <label>email : </label> <input type="text" name="email" formControlName="email" ngModel />
+            </div>
+            <div class="formItem">
+                <label>password : </label> <input type="password" name="password" formControlName="password" ngModel />
+            </div>
+            <div class="formItem">
+                <label>state : </label> <input type="text" name="state" formControlName="state" ngModel />
+            </div>
+            <div class="formItem">
+                <label>city : </label> <input type="text" name="city" formControlName="city" ngModel />
+            </div>
+            <div class="formItem">
+                <label>pincode : </label> <input type="text" name="pincode" formControlName="pincode" ngModel />
+            </div>
+            <div class="formItem">
+                <label>contactNo : </label> <input type="text" name="contactNo" formControlName="contactNo" ngModel />
+            </div>
+            <div class="formItem">
+                <label>Gender : </label>
+                <input type="radio" id="male" name="gender" value="male" formControlName="gender" ngModel> <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" formControlName="gender" ngModel> <label for="female">Female</label>
+            </div>
+
+            <div class="formItem">
+                <button type="submit">submit</button>
+                <button type="reset">reset</button>
+            </div>
+        </form>
+        <div class="formItem">
+            <label><a routerLink="/login" routerLinkActive="active"
+                [routerLinkActiveOptions]="{exact:true}">login</a></label>
+            <label><a routerLink="/forgetPassword" routerLinkActive="active"
+                [routerLinkActiveOptions]="{exact:true}">forget_pass</a></label>
+          </div>
+    </div>
+
+</div>

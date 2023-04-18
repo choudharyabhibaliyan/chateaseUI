@@ -1,0 +1,58 @@
+.card{
+    display: flex;
+    justify-content: right;
+    padding-right: 5%;
+    align-items: center;
+    height:88vh;
+}
+.logincomponent{
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    height:40%;
+    padding: 2.5%;
+    background-color:aliceblue;
+    opacity: .95;
+    border-radius: 10px;
+}
+.logo{
+    font-size: 250%;
+    text-align: center;
+    padding: 5%;
+    font-weight: bolder;
+    color:brown;
+}
+.formelement{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height:45px;
+    border-radius: 10px;
+}
+input{
+    padding: 2%;
+    border-radius: 10%;
+    font-weight: bold;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+label{
+    font-size: larger;
+    font-weight: bold;
+}
+.button{
+    background-color: green;
+    width: 99%;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+.links{
+    font-size: larger;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}

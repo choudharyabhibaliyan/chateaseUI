@@ -1,0 +1,19 @@
+<div class="cont">
+    <div *ngFor="let user of userlist" class="card">
+        <div class="details">
+           <label>{{user.username}} </label>
+        </div>
+        <div class="details">
+            <label>{{user.gender}} </label>
+         </div>
+        <div class="details">
+            <label>{{user.city}} </label>
+         </div>
+         <div class="details">
+            <label>{{user.state}} </label>
+         </div>
+        <div class ="buttons">
+            <button class="danger" (click)="deleteRequest(user.id)"> x </button>
+        </div>
+    </div>
+</div>
